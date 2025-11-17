@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>确认递交申请</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 28px;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .info-group {
+            margin-bottom: 15px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 5px;
+            display: inline-block;
+            min-width: 200px;
+        }
+
+        .info-value {
+            color: #1a1a1a;
+            display: inline-block;
+        }
+
+        .transaction-details {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #007bff;
+        }
+
+        .transaction-item {
+            margin-bottom: 12px;
+        }
+
+        .transaction-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .notes-section {
+            background-color: #fff9e6;
+            padding: 25px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .notes-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .note-item {
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+            color: #856404;
+            line-height: 1.8;
+        }
+
+        .note-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .note-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .info-label {
+                min-width: 100%;
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>确认递交申请</h1>
+
+        <!-- 确认递交申请部分 -->
+        <div class="section">
+            <h2 class="section-title">确认递交申请</h2>
+            <p style="margin-bottom: 20px; color: #666;">你的申请已经收到,详情如下:</p>
+            
+            <div class="info-group">
+                <span class="info-label">申请类别:</span>
+                <span class="info-value">非本地毕业生留港/回港就业安排申请</span>
+            </div>
+            
+            <div class="info-group">
+                <span class="info-label">收取申请结果通知的方式:</span>
+                <span class="info-value highlight">yuemingzhong001@gmail.com</span>
+            </div>
+            
+            <div class="info-group">
+                <span class="info-label">英文姓名:</span>
+                <span class="info-value">ZHONG, YUEMING</span>
+            </div>
+            
+            <div class="info-group">
+                <span class="info-label">性别:</span>
+                <span class="info-value">男</span>
+            </div>
+            
+            <div class="info-group">
+                <span class="info-label">出生日期 (日-月-年):</span>
+                <span class="info-value">11-10-2001</span>
+            </div>
+        </div>
+
+        <!-- 交易详情部分 -->
+        <div class="section">
+            <h2 class="section-title">交易详情</h2>
+            <div class="transaction-details">
+                <div class="transaction-item">
+                    <span class="info-label">交易日期和时间:</span>
+                    <span class="info-value">06/01/2025 17:32:03</span>
+                </div>
+                <div class="transaction-item">
+                    <span class="info-label">交易参考编号:</span>
+                    <span class="info-value highlight">7282501061025469</span>
+                </div>
+                <div class="transaction-item">
+                    <span class="info-label">临时申请参考编号:</span>
+                    <span class="info-value highlight">1007922-25</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 重要提示部分 -->
+        <div class="section">
+            <div class="notes-section">
+                <h2 class="notes-title">重要提示:</h2>
+                
+                <div class="note-item">
+                    如你不符合资格使用此网上服务,你的申请可能不获处理。
+                </div>
+                
+                <div class="note-item">
+                    日后有关你的申请的电邮通讯(例如要求提供补充资料、申请结果通知等),将会传送到申请时所提交的联络电邮地址。
+                </div>
+                
+                <div class="note-item">
+                    如提供的通讯电邮地址失效或不正确,或你的电邮服务器的过滤系统(例如反滥发软件)把通知书拦截或删除,将导致通知书无法以电子方式传送。如有需要,请致电技术支援热线 <span class="highlight">(852) 3128 8668</span>。
+                </div>
+                
+                <div class="note-item">
+                    一般而言,入境处会于七个工作天内向你发出确认通知书或领证通知书。如在十个工作天后仍未收到通知书,请致电入境处查询热线 <span class="highlight">(852) 2824 6111</span> 或电邮至 <span class="highlight">enquiry@immd.gov.hk</span> 寻求协助。
+                </div>
+                
+                <div class="note-item">
+                    本处或会要求你提供其他相关文件或资料,以处理你的申请。
+                </div>
+                
+                <div class="note-item">
+                    入境事务处在收齐所需文件后,一般需时六星期处理受养人来港居留的签证/进入许可的申请。
+                </div>
+                
+                <div class="note-item">
+                    一般来说,非本地应届毕业生/大湾区校园应届毕业生递交的申请,将于收到所有所需文件后约两星期内完成处理。至于非本地非应届毕业生/大湾区校园非应届毕业生的申请,在收到所有所需文件后,一般需时四星期处理。处理时间须视乎个别申请及当时收到的申请数目而定。每年六至八月为申请高峰期,处理签证申请所需时间可能会较长。倘若未能收到所有所需文件及资料,入境处将无法开始处理有关申请。
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
